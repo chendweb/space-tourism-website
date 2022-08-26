@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../assets/home/background-home-desktop.jpg");
+  color: #fff;
+}
+
+/* HEADER */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.star-icon {
+  width: 48px;
+  height: 48px;
+  margin-left: 55px;
+}
+
+.navbar {
+  display: flex;
+  gap: 50px;
+  padding: 38px 165px 38px 123px;
+  backdrop-filter: blur(81.5485px);
+}
+
+.navbar-button {
+  display: flex;
+  gap: 11px;
+}
