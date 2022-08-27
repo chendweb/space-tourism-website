@@ -1,3 +1,5 @@
+/* horizontal size / 1.2 */
+
 * {
   margin: 0;
   padding: 0;
@@ -19,17 +21,49 @@ body {
 .star-icon {
   width: 48px;
   height: 48px;
-  margin-left: 55px;
+  margin-left: 46px;
+}
+
+.header-line {
+  height: 1px;
+  width: 395px;
+  position: absolute;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.25);
+  left: 139px;
+  top: 88px;
+  z-index: 1;
 }
 
 .navbar {
   display: flex;
-  gap: 50px;
-  padding: 38px 165px 38px 123px;
+  gap: 42px;
+  padding: 0 137px 0 102px;
+  background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(81.5485px);
 }
 
 .navbar-button {
   display: flex;
-  gap: 11px;
+  gap: 9px;
+  padding: 38px 2px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+}
+
+.navbar-numbers {
+  font-weight: 700;
+}
+
+.navbar-text {
+  font-weight: 400;
+}
+
+.active-page {
+  border-bottom: 3px solid #fff;
+}
+
+.inactive-page:hover {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
 }
