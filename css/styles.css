@@ -5,6 +5,54 @@
   padding: 0;
 }
 
+/* TYPOGRAPHY */
+.heading-1 {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-size: 150px;
+}
+
+.heading-2 {
+}
+
+.heading-3 {
+}
+
+.heading-4 {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.heading-5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 4.75px;
+  color: #d0d6f9;
+}
+
+.nav-text {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  font-weight: 400;
+}
+
+.navbar-numbers {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  font-weight: 700;
+}
+
+.body-text {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
 body {
   background-image: url("../assets/home/background-home-desktop.jpg");
   color: #fff;
@@ -47,23 +95,56 @@ body {
   display: flex;
   gap: 9px;
   padding: 38px 2px;
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 16px;
-  letter-spacing: 2.7px;
 }
 
 .navbar-numbers {
   font-weight: 700;
 }
 
-.navbar-text {
-  font-weight: 400;
-}
-
 .active-page {
   border-bottom: 3px solid #fff;
 }
 
-.inactive-page:hover {
+.inactive-page:hover,
+.inactive-page:active {
   border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+/* HOME BODY */
+.home-text {
+  color: #d0d6f9;
+}
+
+.body-block {
+  position: absolute;
+  width: 450px;
+  top: 240px;
+  left: 138px;
+}
+
+.home-h5 {
+  margin-bottom: 24px;
+}
+
+.home-space {
+  margin-bottom: 24px;
+}
+
+.main-button {
+  height: 230px;
+  width: 230px;
+  line-height: 230px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #0b0d17;
+  position: absolute;
+  left: 910px;
+  top: 400px;
+}
+
+.home-explore {
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: 2px;
 }
