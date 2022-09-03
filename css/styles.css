@@ -143,6 +143,12 @@ body {
   top: 400px;
 }
 
+.main-button:hover {
+  border: 50px solid #24262f;
+  left: 860px;
+  top: 350px;
+}
+
 .home-explore {
   display: inline-block;
   vertical-align: middle;
