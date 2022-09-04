@@ -91,10 +91,13 @@ body {
   backdrop-filter: blur(81.5485px);
 }
 
-.navbar-button {
+.navbar-button,
+.navbar-button:visited {
   display: flex;
   gap: 9px;
   padding: 38px 2px;
+  text-decoration: none;
+  color: #fff;
 }
 
 .navbar-numbers {
@@ -144,7 +147,8 @@ body {
 }
 
 .main-button:hover {
-  border: 50px solid #24262f;
+  border: 50px solid rgb(255, 255, 255, 0.1);
+  background-clip: padding-box;
   left: 860px;
   top: 350px;
 }
