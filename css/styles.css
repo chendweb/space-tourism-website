@@ -54,8 +54,16 @@
 }
 
 body {
-  background-image: url("../assets/home/background-home-desktop.jpg");
   color: #fff;
+}
+
+/* BACKGROUND IMAGE */
+body.home {
+  background-image: url("../assets/home/background-home-desktop.jpg");
+}
+
+body.destination {
+  background-image: url("../assets/destination/background-destination-desktop.jpg");
 }
 
 /* HEADER */
